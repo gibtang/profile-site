@@ -1,13 +1,13 @@
-import Image from 'next/image';
-import { Suspense } from 'react';
+// import Image from 'next/image';
+// import { Suspense } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Profile from '@/components/Profile';
 import WhyChooseJohn from '@/components/WhyChooseJohn';
 import AboutJohn from '@/components/AboutJohn';
 import Services from '@/components/Services';
-import CaseStudies from '@/components/CaseStudies';
-import Testimonials from '@/components/Testimonials';
+// import CaseStudies from '@/components/CaseStudies';
+// import Testimonials from '@/components/Testimonials';
 
 export default function Home() {
   return (
@@ -18,9 +18,13 @@ export default function Home() {
           <div className="layout-content-container flex flex-col max-w-[960px] flex-1">
             <Hero />
             <Profile />
+            <section id="about">
             <WhyChooseJohn />
+            </section>
             <AboutJohn />
+            <section id="services">
             <Services />
+            </section>
             {/* <CaseStudies /> */}
             {/* <Testimonials /> */}
           </div>
