@@ -11,9 +11,9 @@ export default function Testimonials() {
                 style={{backgroundImage: 'url("https://cdn.usegalileo.ai/stability/78e0e6fa-54cb-436f-b820-3421adb39956.png")'}}
               ></div>
               <p className="text-[#111418] text-base font-medium leading-normal">
-                "CTO as a Service is a real gem and is the site of choice for people with high ambitions. We're meeting people we couldn't have found otherwise, the type of
-                people that don't usually apply for roles. My favorite part is that we can highlight our team culture in a way impossible elsewhere. Just having job
-                descriptions is antiquated and read.cv fixed that." - Dennis Mueller
+                &quot;CTO as a Service is a real gem and is the site of choice for people with high ambitions. We&apos;re meeting people we couldn&apos;t have found otherwise, the type of
+                people that don&apos;t usually apply for roles. My favorite part is that we can highlight our team culture in a way impossible elsewhere. Just having job
+                descriptions is antiquated and read.cv fixed that.&quot; - Dennis Mueller
               </p>
             </div>
             {/* ... Other testimonials ... */}
