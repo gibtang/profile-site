@@ -3,8 +3,8 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Profile from '@/components/Profile';
-import WhyChooseJohn from '@/components/WhyChooseJohn';
-import AboutJohn from '@/components/AboutJohn';
+import WhyChooseGibson from '@/components/WhyChooseGibson';
+import AboutGibson from '@/components/AboutGibson';
 import Services from '@/components/Services';
 // import CaseStudies from '@/components/CaseStudies';
 // import Testimonials from '@/components/Testimonials';
@@ -19,9 +19,9 @@ export default function Home() {
             <Hero />
             <Profile />
             <section id="about">
-            <WhyChooseJohn />
+            <WhyChooseGibson />
             </section>
-            <AboutJohn />
+            <AboutGibson />
             <section id="services">
             <Services />
             </section>
